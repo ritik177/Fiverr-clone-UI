@@ -5,6 +5,42 @@
         justify-content: center;
         padding: 100px 0px;
 
+        &.dark{
+            background-color: #0d084d;
+            // color: white;
+
+            // !important is used for not overriden sytles
+            h1{
+                color: white !important;
+            }
+            h5{
+                color: white !important; 
+                margin-bottom: 20px !important;
+                font-size: 20px !important;
+            }
+
+            .title{
+                color: white !important;
+                font-weight: 300 !important;
+                font-size: 18px !important;
+            }
+            img{
+                width: 100%;
+            }
+            button{
+                background-color: #1dbf73;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                margin-top: 20px;
+               border: none;
+               width: max-content;
+            }
+
+        }
+
         .container{
             width: 1400px;
             display: flex;
@@ -23,13 +59,14 @@
              }
 
             h1{
-                font-weight: 500;
+                font-weight: 700;
                 margin-bottom: 10px;
             }
             p{
                 font-size: 18px;
                 font-weight: 300;
-                color: gray;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                color: rgb(83, 77, 77);
                 line-height: 28px;
                 letter-spacing: 1px;
             }
@@ -39,10 +76,11 @@
                 gap: 10px;
                 font-weight: 500;
                 font-size: 18px;
-                color: gray;
+                color: rgb(27, 26, 26);
                 img{
                     width: 24px;
-                height: 24px;
+                    height: 24px;
+                   
                 }
             }
             video{
