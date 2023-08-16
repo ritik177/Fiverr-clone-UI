@@ -50,8 +50,45 @@
                 }
             }
             .right{
+                display: flex;
+                align-items:  center;
+                gap: 10px;
+                position: relative;
 
+             .sortBy{
+                color: #555;
+                font-weight: 300;
+                }
+              .sortType{
+                  font-weight: 500;
+                 }
+             img{
+               width: 15px;
+               cursor: pointer;
+               }
+               .rightMenu{
+                padding: 20px;
+                background-color: white;
+                border-radius: 5px;
+                border: 0.5px solid lightgrey;
+                position: absolute;
+                top: 30px;
+                right: 0;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                color: #555;
+
+                span{
+                    cursor: pointer;
+                }
+               }
             }
+        }
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
     }
 }

@@ -85,7 +85,7 @@ const Footer = () => {
 <hr />
         <div className="bottom">
           <div className="left">
-            <h2>fiverr</h2>
+            <h2>fiverr.</h2>
             <span>© Fiverr International Ltd. 2023</span>
           </div>
           <div className="right">
