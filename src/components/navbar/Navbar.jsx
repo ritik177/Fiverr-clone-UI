@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import './Navbar.scss'
 import { Link, useLocation } from 'react-router-dom'
 
+
+
 const Navbar = () => {
 
   const [active,setActive]=useState(false);
@@ -82,7 +84,9 @@ window.scrollY > 0 ? setActive(true) : setActive(false);
           <Link className='link' to="/">LifeStyle</Link>
  
         </div>
+        <hr />
          </>
+       
         )}
         
     </div>
